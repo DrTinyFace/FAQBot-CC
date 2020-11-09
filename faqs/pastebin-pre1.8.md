@@ -19,7 +19,7 @@ Then go to line 24, and replace this:
 ```
 with this:
 ```
-"http://pastebin.com/raw/"..textutils.urlEncode( paste )
+"https://pastebin.com/raw/"..textutils.urlEncode( paste )
 ```
 After that, you can run the pastebin program at `/pastebin`.
 
